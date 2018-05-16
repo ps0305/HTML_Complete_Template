@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>UiBrains Technologies</title>
+    <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
+    <link rel="stylesheet" href="../font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body{
+            font-family: 'Abel', sans-serif;
+            margin: 0px;
+        }
+        header {
+            background-image: url("./img/header.jpg");
+            background-size: cover;
+            padding:50px;
+            color: #682d3c;
+            text-align: center;
+            line-height: 15px;
+        }
+        footer{
+            background-image: url("./img/blog-1.jpg");
+            background-size: cover;
+            padding:10px;
+            color: #d5d5d5;
+            text-align: center;
+            line-height: 15px;
+
+            
+        }
+        nav{
+            background-color: black;
+            overflow: hidden;
+        }
+        nav ul{
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+        nav ul li{
+            float: left;
+        }
+        nav ul li a{
+            color: #d5d5d5;
+            padding: 10px 25px;
+            display: inline-block;
+            text-decoration: none;
+        }
+        nav ul li a:hover{
+            background-color: #796258;
+        }
+        nav ul li a.active{
+            background-color: #796258;
+        }
+        /*sidebar section*/
+        aside{
+           float: left;
+            width: 150px;
+            text-align: center;
+            background-color: #c8b39b;
+        }
+        aside ul{
+           list-style-type: none;
+            padding: 0;
+           margin: 0;
+           text-align: center;
+           height: 300px;
+           overflow-x: scroll; /* for scroll Bar*/
+        }
+        aside ul li a{
+            text-decoration: none;
+            color: black;
+            padding: 14px 25px;
+            display: block;
+        }
+        aside ul li a:hover{
+            background-color: #c8b39b;
+            color: white;
+        }
+        /*main content section*/
+        section{
+            margin-left: 150px;
+            border-left: 2px solid green;
+            padding: 10px;
+
+        }
+        details{
+            background-image: url("./img/work-5.jpg");
+            background-size: cover;
+            padding: 10px;
+            margin: 5px;
+            color: #d5d5d5;
+            border-radius: 10px;
+
+        }
+        details:hover{
+            cursor: pointer;
+            background-image: url("./img/work-4.jpg");
+        }
+        details div{
+            
+            padding: 10px;
+            border-radius: 10px;
+        }
+        summary{
+            outline: none;
+        }
+        h2{
+            text-align: center;
+            color: white;
+            padding: 10px;
+        }
+        table ,td{
+            text-align: center;
+        }
+        img , iframe{
+            border-radius: 10px;
+        }
+        #home{
+            background-image: url("./img/work-1.jpg");
+            background-size: cover;
+        }
+        #BeforeAfter{
+            background-image: url("./img/work-2.jpg");
+            background-size: cover;
+        }
+        #FreedomFighters{
+            background-image: url("./img/work-3.jpg");
+            background-size: cover;
+        }
+        #Politicalleaders{
+            background-image: url("./img/work-4.jpg");
+            background-size: cover;
+        }
+        #Businessleaders{
+            background-image: url("./img/work-5.jpg");
+            background-size: cover;
+        }
+        #Sportsleaders{
+            background-image: url("./img/work-4.jpg");
+            background-size: cover;
+        }
+        h1{
+            margin-right: 400px;
+        }
+        h3{
+            margin-right: 300px;
+        }
+
+    </style>
+    
+</head>
+<body>
+        <header>
+            <h1 style="text-shadow: 2px 1px #c8b39b">UIBrains Technology</h1>
+            <h3 style="text-shadow: 2px 1px #c8b39b">Smart Way Of learning</h3>
+        </header>
+    <!--Main Navigation-->
+    <nav>
+        <ul>
+            <li>
+               <a href="#" class="active">
+                  <i class="fa fa-home"></i> Home
+               </a>
+            </li>
+            <li>
+                <a href="#">
+                   <i class="fa fa-id-card"></i> About Us
+                </a>
+            </li>
+            <li>
+                <a href="#17_Online_Job_Application_Form">
+                  <i class="fa fa-envelope"></i>  Contact Us
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                  <i class="fa fa-graduation-cap"></i>  Careers
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                  <i class="fa fa-book"></i>  Courses
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <!--Sidebar-->
+    <aside>
+        <ul>
+            <li>
+                <a href="#home">Home</a>
+            </li>
+
+            <li>
+            <a href="#BeforeAfter">Before-After</a>
+            </li>
+
+            <li>
+                <a href="#FreedomFighters">Freedom Fighters</a>
+            </li>
+            <li>
+                <a href="#Politicalleaders">Political leaders</a>
+            </li>
+            <li>
+                <a href="#Businessleaders">Business leaders</a>
+            </li>
+            <li>
+                <a href="#Sportsleaders">Sports leaders</a>
+            </li>
+            <li>
+                <a href="#">More</a>
+            </li>
+        </ul>
+    </aside>
+
+    <!--Main Content Section-->
+    <section>
+        <!--The Great India-->
+        <details>
+            <summary>The Great India</summary>
+            <div id="home">
+                <h1 align="center">The Great India</h1>
+                <hr>
+                <h2>Our India</h2>
+                <p align="center">Ea nisi cillum dolore officia ex irure cillum eiusmod ullamco nulla aute mollit incididunt nulla non. Duis id non pariatur magna dolore id in nostrud veniam non sint esse ut qui laborum irure nulla incididunt. Lorem ipsum deserunt elit pariatur dolore voluptate quis id laborum id id do non ea elit. Culpa aute consequat proident anim velit sit qui officia eu excepteur nulla sed voluptate est incididunt mollit consectetur.</p>
+                <table width="100%">
+                    <tr>
+                        <td>
+                            <img src="img/india_flag.jpg" width="450" height="250">
+                        </td>
+                        <td>
+                            <img src="img/india-map.jpg" width="450" height="250">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>India Flag</td>
+                        <td>India Map</td>
+                    </tr>
+                </table>
+                <br>
+            </div>
+        </details>
+        <!--India Before & After-->
+        <details>
+            <summary>India Before & After</summary>
+            <!-- India Before & After -->
+
+            <div id="BeforeAfter">
+                <h2>India Before & After</h2>
+                <hr>
+                <p align="center">Aute quis esse in aliqua culpa eu nulla ut laboris laborum. Dolor culpa labore adipisicing in sit excepteur magna veniam cupidatat. Lorem ipsum exercitation reprehenderit ut id in magna voluptate proident in dolor dolor qui anim in.</p>
+                <table width="100%">
+                    <tr>
+                        <td>
+                            <iframe width="500" height="250" src="https://www.youtube.com/embed/L9rnkrg3toQ?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                        </td>
+                        <td>
+                            <iframe width="500" height="250" src="https://www.youtube.com/embed/JCwthVTFtog?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="color: #796258">India Before Independence</td>
+                        <td style="color: #796258">India After Independence</td>
+                    </tr>
+
+                </table>
+                <br>
+            </div>
+        </details>
+        <!--Indian Freedom Fighters-->
+        <details>
+            <summary>Indian Freedom Fighters</summary>
+            <!-- Indian Freedom Fighters -->
+            <div id="FreedomFighters">
+                <h2>Indian Freedom Fighters</h2>
+                <hr>
+                <p align="center">Amet occaecat duis magna dolore incididunt ad irure excepteur eiusmod reprehenderit nisi nulla dolore consequat eiusmod. Elit laborum laborum labore pariatur et exercitation ea pariatur occaecat dolore ut duis fugiat commodo. Consectetur eiusmod commodo officia fugiat consectetur adipisicing ullamco dolore in sint cupidatat.</p>
+                <table width="100%">
+                    <tr>
+                        <td>
+                            <img src="img/mahatma.jpg" width="250" height="150">
+                        </td>
+                        <td>
+                            <img src="img/alluri.jpg" width="250" height="150">
+                        </td>
+                        <td>
+                            <img src="img/subhash_chandra_bose.jpg" width="250" height="150">
+                        </td>
+                        <td>
+                            <img src="img/Bhagat.jpg" width="250" height="150">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Mahatma Gandhi</td>
+                        <td>Alluri Sita Ramaraju</td>
+                        <td>Subhash Chandra Bose</td>
+                        <td>Bhagat Singh</td>
+                    </tr>
+                </table>
+                <br>
+            </div>
+        </details>
+        <!--Indian Political Leaders-->
+        <details>
+            <summary>Indian Political Leaders</summary>
+            <!-- Indian Political Leaders -->
+            <div id="Politicalleaders">
+                <h2>Indian Political Leaders</h2>
+                <hr>
+                <p align="center">Voluptate voluptate dolor nisi pariatur adipisicing sit cillum officia enim esse dolor eu officia quis qui do aliquip. Sit amet ea tempor eu magna laboris ex minim pariatur sint consectetur cillum. Adipisicing in tempor culpa sit dolor dolor amet in qui est ad laboris consequat in id.</p>
+                <table width="100%">
+                    <tr>
+                        <td>
+                            <img src="img/narendra_modi.jpg" width="250" height="150">
+                        </td>
+                        <td>
+                            <img src="img/lal_bahadur.jpg" width="250" height="150">
+                        </td>
+                        <td>
+                            <img src="img/abdul_kalam.jpg" width="250" height="150">
+                        </td>
+                        <td>
+                            <img src="img/vajpai.jpg" width="250" height="150">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Naredra Modi</td>
+                        <td>Lal Bahadur Shastri</td>
+                        <td>APJ Abdul Kalam</td>
+                        <td>AB Vajpai</td>
+                    </tr>
+                </table>
+                <br>
+            </div>
+        </details>
+
+        <details>
+            <!-- Indian Business Leaders -->
+            <summary>Indian Business Leaders</summary>
+            <div id="Businessleaders">
+                <h2>Indian Business Leaders</h2>
+                <hr>
+                <p align="center">Dolor incididunt cupidatat sunt veniam id dolore duis qui non tempor laborum eu ut aute anim sed mollit pariatur. Sunt nulla aliqua duis ad ut dolor do sint ad esse in ex irure eu et. Reprehenderit voluptate labore in occaecat sed in quis ad magna exercitation.</p>
+                <table width="100%">
+                    <tr>
+                        <td>
+                            <img src="img/ratan_tata.jpg" width="250" height="150">
+                        </td>
+                        <td>
+                            <img src="img/dhirubhai.jpg" width="250" height="150">
+                        </td>
+                        <td>
+                            <img src="img/azim_prem_ji.jpg" width="250" height="150">
+                        </td>
+                        <td>
+                            <img src="img/narayana_murthy.jpg" width="250" height="150">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Ratan Tata</td>
+                        <td>Dhirubhai Ambani</td>
+                        <td>Azim Prem Ji</td>
+                        <td>Narayana Murthy</td>
+                    </tr>
+                </table>
+                <br>
+            </div>
+        </details>
+
+        <details>
+            <!-- Sports Leader -->
+            <summary>Sports Leader</summary>
+            <div id="Sportsleaders">
+                <h2>Sports leaders</h2>
+                <hr>
+                <p align="center">Elit officia aliqua magna ullamco cupidatat dolor anim sed adipisicing ut sunt ea consequat reprehenderit excepteur. Sunt magna culpa fugiat enim eu incididunt elit in sit aute veniam exercitation. Sint est pariatur dolore sunt cupidatat laboris labore fugiat.</p>
+                <table width="100%">
+                    <tr>
+                        <td>
+                            <img src="img/pv_Sindhu.jpg" width="250" height="150">
+                        </td>
+                        <td>
+                            <img src="img/saina.jpg" width="250" height="150">
+                        </td>
+                        <td>
+                            <img src="img/sachin.jpg" width="250" height="150">
+                        </td>
+                        <td>
+                            <img src="img/gopichand.jpg" width="250" height="150">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>PV Sindhu</td>
+                        <td>Saina Nehwal</td>
+                        <td>Sachin Tendulkar</td>
+                        <td>P Gopichand</td>
+                    </tr>
+                </table>
+                <br>
+
+            </div>
+        </details>
+
+    </section>
+
+        <!-- Main Footer -->
+        <footer>
+            <h2>Copyright &copy; 2018 UIBrains Technology</h2>
+            <p>All Right Reserved</p>
+            <p>Developed & Maintained by Pankaj</p>
+        </footer>
+
+    
+
+</body>
+</html>
