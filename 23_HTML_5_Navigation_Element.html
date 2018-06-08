@@ -10,16 +10,15 @@
         }
         nav{
             background-color: black;
-            overflow: hidden;
-
+            overflow: hidden; /* please look at nav ul li */
         }
         nav ul{
             list-style-type: none;
-            margin: 0;
             padding: 0;
+            margin: 0;
         }
         nav ul li{
-            float: left;
+            float: left; /* overflown the background color */
         }
         nav ul li a{
             text-decoration: none;
@@ -30,6 +29,10 @@
         nav ul li a:hover{
             background-color: seagreen;
         }
+
+        nav ul li a.active{
+            background-color: forestgreen;
+        }
     </style>
 </head>
 <body>
@@ -38,19 +41,19 @@
     <nav>
         <ul>
             <li>
-                <a href="#">Home Page</a>
+                <a href="#" class="active">Home</a>
             </li>
             <li>
-                <a href="#">About Us</a>
-            </li>
-            <li>
-                <a href="#">Conatct Us</a>
+                <a href="#">Courses</a>
             </li>
             <li>
                 <a href="#">Careers</a>
             </li>
             <li>
-                <a href="#">Courses</a>
+                <a href="#">Contact Us</a>
+            </li>
+            <li>
+                <a href="#">About Us</a>
             </li>
         </ul>
     </nav>
